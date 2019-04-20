@@ -1,0 +1,13 @@
+{
+  "name": "realbooks",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "Jordan Jantschulev <j.jantschulev@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "pg": "^7.10.0"
+  }
+}
