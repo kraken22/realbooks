@@ -1,0 +1,59 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 18px;
+}
+
+h1 {
+  text-align: center;
+  margin: 22px 0;
+  margin-top: 32px;
+}
+
+.search-box {
+  display: block;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  width: 100%;
+  padding: 12px 22px;
+  margin: 20px 0;
+  font-size: 22px;
+  outline: none;
+  border-radius: 10px;
+  border: 1px solid #909db0;
+  background-color: transparent;
+  transition-duration: 0.3s;
+  /* box-shadow: 0.4px 1.5px 3px #bcc8da; */
+}
+
+.search-box:focus {
+  border-color: white;
+  background-color: #fff;
+  box-shadow: 1px 3px 10px #bcc8da;
+}
+
+.song-list-box {
+  box-shadow: 0.4px 1.5px 3px #bcc8da;
+  border-radius: 10px;
+  background-color: #fff;
+  transition-duration: 0.3s;
+  padding: 10px 22px;
+  margin: 10px 0;
+}
+
+.song-list-box:hover {
+  box-shadow: 1px 3px 10px #bcc8da;
+}
+
+.song-list-title {
+  font-weight: 500;
+  margin: 8px 0;
+  color: black;
+}
+
+.song-list-book-name {
+  font-size: 12px;
+  margin: 8px 0;
+  color: #576374;
+}

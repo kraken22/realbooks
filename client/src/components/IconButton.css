@@ -1,0 +1,21 @@
+.icon-button {
+  margin: 5px;
+  font-size: 22px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  box-shadow: 0.5px 1.3px 4px #bcc8da;
+  transition-duration: 0.4s;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.icon-button:hover {
+  box-shadow: 1px 3px 10px #bcc8da;
+}
