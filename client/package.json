@@ -24,5 +24,6 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "proxy": "http://localhost:6000/realbooks"
+  "proxy": "http://localhost:6000/realbooks",
+  "homepage": "https://jantschulev.ml/realbooks/"
 }
