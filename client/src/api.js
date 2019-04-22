@@ -1,5 +1,8 @@
+// const apiurl = "/api";
+const apiurl = "https://jantschulev.ml/realbooks/api";
+
 const makeRequest = (url, method, body) =>
-  fetch(`/api${url}`, {
+  fetch(`${apiurl}${url}`, {
     method,
     headers: {
       "Content-Type": "application/json"
