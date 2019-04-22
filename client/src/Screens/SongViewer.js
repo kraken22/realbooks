@@ -98,7 +98,9 @@ class SongViewer extends React.Component {
                 <div style={{ width: "100%", maxWidth: 1000 }}>
                   <img
                     style={{ width: "100%" }}
-                    src={`/api/image/${song.book_name}/${song.page_number + i}`}
+                    src={`/realbooks/api/image/${
+                      song.book_name
+                    }/${song.page_number + i}`}
                     alt="sheet music page"
                   />
                 </div>
