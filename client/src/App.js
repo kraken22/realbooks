@@ -4,7 +4,7 @@ import Search from "./Screens/Search";
 import SongViewer from "./Screens/SongViewer";
 
 const App = () => (
-  <BrowserRouter>
+  <BrowserRouter basename="/realbooks">
     <Switch>
       <Route path="/song/:songId" component={SongViewer} />
       <Route path="/" component={Search} />
