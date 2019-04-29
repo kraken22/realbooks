@@ -80,6 +80,9 @@ class Search extends React.Component {
           </div>
         )}
         {songs.map(this.renderSong)}
+        <p style={{ textAlign: "center", color: "#576374", marginTop: 50 }}>
+          Made By Jordan Jantschulev
+        </p>
       </div>
     );
   }

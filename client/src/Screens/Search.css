@@ -57,3 +57,10 @@ h1 {
   margin: 8px 0;
   color: #576374;
 }
+
+.error-display {
+  border-radius: 10px;
+  background-color: #ffc3c3;
+  padding: 12px;
+  border: 1px solid #ff6060;
+}
